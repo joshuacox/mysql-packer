@@ -1,4 +1,4 @@
-mysql-packer
-============
+#MySQL-packer
 
-Packer builder for a MySQL box
+Packer MySQL builder
+-- in dev still
