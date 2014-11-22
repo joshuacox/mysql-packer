@@ -1,0 +1,10 @@
+source "https://api.berkshelf.com"
+
+cookbook "apt", github: "opscode-cookbooks/apt"
+cookbook "build-essential", github: "opscode-cookbooks/build-essential"
+cookbook "database", github: "opscode-cookbooks/database"
+cookbook "iptables", github: "opscode-cookbooks/iptables"
+cookbook "logrotate", github: "stevendanna/logrotate"
+cookbook "mysql", github: "opscode-cookbooks/mysql"
+cookbook "mysql-chef_gem", github: "opscode-cookbooks/mysql-chef_gem"
+cookbook "openssl", github: "opscode-cookbooks/openssl"
