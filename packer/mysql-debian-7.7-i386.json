@@ -76,8 +76,8 @@
       "ssh_port": 22,
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo 'vagrant'|sudo -S /sbin/shutdown -hP now",
-      "vm_name": "postgresql-debian-7.7-i386",
-      "output_directory": "../builds/postgresql-debian-7.7-i386-qemu"
+      "vm_name": "mysql-debian-7.7-i386",
+      "output_directory": "../builds/mysql-debian-7.7-i386-qemu"
     },
     {
       "type": "vmware-iso",
@@ -165,7 +165,7 @@
     {
       "type": "vagrant",
       "only": ["virtualbox-iso"],
-      "output": "../builds/vagrant/postgresql_debian-7.7-i386_chef-{{user `chef_version`}}.box"
+      "output": "../builds/vagrant/mysql_debian-7.7-i386_chef-{{user `chef_version`}}.box"
     }
   ],
   "provisioners": [
